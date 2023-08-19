@@ -1,0 +1,109 @@
+/* .style-info{
+    font-family: "Sacramento";
+    font-family: "Josefin Slab"; 
+    Back colour
+    #fbf3eb
+    rgba(251,243,235,255)
+} */
+h1, h2, h3, h4{
+    font-family: "Sacramento";
+}
+
+p{
+    font-family: "Josefin Slab"; 
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fbf3eb;
+}
+nav a{
+    color: black;
+    font-family: "Josefin Slab";
+    font-size: larger;
+    text-decoration: none; /* no underline */
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    opacity: 1;
+}
+
+nav h1{
+    font-family: "Sacramento";
+}
+
+
+article{
+    background-color: #fbf3eb;
+    margin: auto;
+    width: 80vw;
+    padding: 5rem;
+    box-shadow: 10px 10px 5px rgb(155, 155, 155);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+article img{
+    margin: auto;
+    box-shadow: 10px 10px 5px rgb(155, 155, 155);
+    width: 80%;
+}
+ /* box stuff */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    flex-basis: 500px;
+    background-color: #fbf3eb;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); */
+    box-shadow: 0 15px 25px 0 rgba(0,0,0,0.5);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+/* .back{
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    position: sticky;
+    width: 100vw;
+    height: 100vh;
+} */
+html{
+    background: url(back.jpg) no-repeat center center fixed;
+    background-size: 100vw 100vh;
+}
+/* .card a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+} */
+.card button{
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
